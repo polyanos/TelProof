@@ -20,4 +20,12 @@ public class BluetoothConnection {
     public int getStrength(){
         return strength;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
 }

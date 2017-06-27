@@ -1,0 +1,13 @@
+Bluetooth beacon config
+Namen:
+INF2A Beacon 1
+INF2A Beacon 2
+INF2A Beacon 3
+
+Beacon modus:
+iBeacon emulatie
+
+Advertisement interval:
+500ms + 30ms timeout
+
+AT+GAPINTERVALS=200,500,500,30,500
